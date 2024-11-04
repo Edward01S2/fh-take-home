@@ -1,5 +1,5 @@
 {
-  "name": "fareharbor/fh-sites-take-home-challenge/challenge-php",
+  "name": "fareharbor/challenge-php",
   "description": "Coding challenge for FareHarbor Sites PHP Interview",
   "minimum-stability": "stable",
   "license": "proprietary",
@@ -10,12 +10,12 @@
     }
   ],
   "require": {
-    "phpunit/phpunit": "7.3.5"
+    "phpunit/phpunit": "10.5.38"
   },
   "scripts": {
-    "phpunit": "phpunit --verbose --colors=always",
+    "phpunit": "phpunit --colors=always",
     "test-poker": [
-      "phpunit --verbose --colors=always test/PokerHandTest.php"
+      "phpunit --colors=always test/PokerHandTest.php --log-events-verbose-text test.log"
     ],
     "test-all": [
       "@phpunit"

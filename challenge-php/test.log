@@ -1,0 +1,126 @@
+[00:00:00.000082375 / 00:00:00.000082375] [4194304 bytes] PHPUnit Started (PHPUnit 10.5.38 using PHP 8.2.25 (cli) on Darwin)
+[00:00:00.005919708 / 00:00:00.005837333] [4194304 bytes] Test Runner Configured
+[00:00:00.006008125 / 00:00:00.000088417] [4194304 bytes] Bootstrap Finished (/Users/edward/Desktop/jj/fh-take-home/challenge-php/vendor/autoload.php)
+[00:00:00.009998375 / 00:00:00.003990250] [6291456 bytes] Data Provider Method Called (PokerHand\PokerHandTest::pokerHandProvider for test method PokerHand\PokerHandTest::testPokerHandRanking)
+[00:00:00.010008000 / 00:00:00.000009625] [6291456 bytes] Data Provider Method Finished for PokerHand\PokerHandTest::testPokerHandRanking:
+                                                          - PokerHand\PokerHandTest::pokerHandProvider
+[00:00:00.011764708 / 00:00:00.001756708] [6291456 bytes] Test Suite Loaded (16 tests)
+[00:00:00.015312500 / 00:00:00.003547792] [6291456 bytes] Event Facade Sealed
+[00:00:00.015422041 / 00:00:00.000109541] [6291456 bytes] Test Runner Started
+[00:00:00.015732625 / 00:00:00.000310584] [6291456 bytes] Test Suite Sorted
+[00:00:00.015854500 / 00:00:00.000121875] [6291456 bytes] Test Runner Execution Started (16 tests)
+[00:00:00.015894458 / 00:00:00.000039958] [6291456 bytes] Test Suite Started (PokerHand\PokerHandTest, 16 tests)
+[00:00:00.016071708 / 00:00:00.000177250] [6291456 bytes] Test Suite Started (PokerHand\PokerHandTest::testPokerHandRanking, 10 tests)
+[00:00:00.016588541 / 00:00:00.000516833] [6291456 bytes] Test Preparation Started (PokerHand\PokerHandTest::testPokerHandRanking#Royal Flush)
+[00:00:00.016639250 / 00:00:00.000050709] [6291456 bytes] Test Prepared (PokerHand\PokerHandTest::testPokerHandRanking#Royal Flush)
+[00:00:00.016930083 / 00:00:00.000290833] [6291456 bytes] Assertion Succeeded (Constraint: is equal to 'Royal Flush', Value: 'Royal Flush')
+[00:00:00.016986250 / 00:00:00.000056167] [6291456 bytes] Test Passed (PokerHand\PokerHandTest::testPokerHandRanking#Royal Flush)
+[00:00:00.017580916 / 00:00:00.000594666] [8388608 bytes] Test Finished (PokerHand\PokerHandTest::testPokerHandRanking#Royal Flush)
+[00:00:00.017634458 / 00:00:00.000053542] [8388608 bytes] Test Preparation Started (PokerHand\PokerHandTest::testPokerHandRanking#Straight Flush)
+[00:00:00.017679666 / 00:00:00.000045208] [8388608 bytes] Test Prepared (PokerHand\PokerHandTest::testPokerHandRanking#Straight Flush)
+[00:00:00.017717375 / 00:00:00.000037709] [8388608 bytes] Assertion Succeeded (Constraint: is equal to 'Straight Flush', Value: 'Straight Flush')
+[00:00:00.017746708 / 00:00:00.000029333] [8388608 bytes] Test Passed (PokerHand\PokerHandTest::testPokerHandRanking#Straight Flush)
+[00:00:00.017815666 / 00:00:00.000068958] [8388608 bytes] Test Finished (PokerHand\PokerHandTest::testPokerHandRanking#Straight Flush)
+[00:00:00.017854666 / 00:00:00.000039000] [8388608 bytes] Test Preparation Started (PokerHand\PokerHandTest::testPokerHandRanking#Four of a Kind)
+[00:00:00.017894333 / 00:00:00.000039667] [8388608 bytes] Test Prepared (PokerHand\PokerHandTest::testPokerHandRanking#Four of a Kind)
+[00:00:00.017927416 / 00:00:00.000033083] [8388608 bytes] Assertion Succeeded (Constraint: is equal to 'Four of a Kind', Value: 'Four of a Kind')
+[00:00:00.017954791 / 00:00:00.000027375] [8388608 bytes] Test Passed (PokerHand\PokerHandTest::testPokerHandRanking#Four of a Kind)
+[00:00:00.018018041 / 00:00:00.000063250] [8388608 bytes] Test Finished (PokerHand\PokerHandTest::testPokerHandRanking#Four of a Kind)
+[00:00:00.018058541 / 00:00:00.000040500] [8388608 bytes] Test Preparation Started (PokerHand\PokerHandTest::testPokerHandRanking#Full House)
+[00:00:00.018101666 / 00:00:00.000043125] [8388608 bytes] Test Prepared (PokerHand\PokerHandTest::testPokerHandRanking#Full House)
+[00:00:00.018133666 / 00:00:00.000032000] [8388608 bytes] Assertion Succeeded (Constraint: is equal to 'Full House', Value: 'Full House')
+[00:00:00.018160125 / 00:00:00.000026459] [8388608 bytes] Test Passed (PokerHand\PokerHandTest::testPokerHandRanking#Full House)
+[00:00:00.018225291 / 00:00:00.000065166] [8388608 bytes] Test Finished (PokerHand\PokerHandTest::testPokerHandRanking#Full House)
+[00:00:00.018275791 / 00:00:00.000050500] [8388608 bytes] Test Preparation Started (PokerHand\PokerHandTest::testPokerHandRanking#Flush)
+[00:00:00.018318000 / 00:00:00.000042209] [8388608 bytes] Test Prepared (PokerHand\PokerHandTest::testPokerHandRanking#Flush)
+[00:00:00.018351833 / 00:00:00.000033833] [8388608 bytes] Assertion Succeeded (Constraint: is equal to 'Flush', Value: 'Flush')
+[00:00:00.018397875 / 00:00:00.000046042] [8388608 bytes] Test Passed (PokerHand\PokerHandTest::testPokerHandRanking#Flush)
+[00:00:00.018557750 / 00:00:00.000159875] [8388608 bytes] Test Finished (PokerHand\PokerHandTest::testPokerHandRanking#Flush)
+[00:00:00.018622416 / 00:00:00.000064666] [8388608 bytes] Test Preparation Started (PokerHand\PokerHandTest::testPokerHandRanking#Straight)
+[00:00:00.018740666 / 00:00:00.000118250] [8388608 bytes] Test Prepared (PokerHand\PokerHandTest::testPokerHandRanking#Straight)
+[00:00:00.018795416 / 00:00:00.000054750] [8388608 bytes] Assertion Succeeded (Constraint: is equal to 'Straight', Value: 'Straight')
+[00:00:00.018825958 / 00:00:00.000030542] [8388608 bytes] Test Passed (PokerHand\PokerHandTest::testPokerHandRanking#Straight)
+[00:00:00.018894750 / 00:00:00.000068792] [8388608 bytes] Test Finished (PokerHand\PokerHandTest::testPokerHandRanking#Straight)
+[00:00:00.018935875 / 00:00:00.000041125] [8388608 bytes] Test Preparation Started (PokerHand\PokerHandTest::testPokerHandRanking#Three of a Kind)
+[00:00:00.018979041 / 00:00:00.000043166] [8388608 bytes] Test Prepared (PokerHand\PokerHandTest::testPokerHandRanking#Three of a Kind)
+[00:00:00.019012083 / 00:00:00.000033042] [8388608 bytes] Assertion Succeeded (Constraint: is equal to 'Three of a Kind', Value: 'Three of a Kind')
+[00:00:00.019039791 / 00:00:00.000027708] [8388608 bytes] Test Passed (PokerHand\PokerHandTest::testPokerHandRanking#Three of a Kind)
+[00:00:00.019102833 / 00:00:00.000063042] [8388608 bytes] Test Finished (PokerHand\PokerHandTest::testPokerHandRanking#Three of a Kind)
+[00:00:00.019140083 / 00:00:00.000037250] [8388608 bytes] Test Preparation Started (PokerHand\PokerHandTest::testPokerHandRanking#Two Pair)
+[00:00:00.019180666 / 00:00:00.000040583] [8388608 bytes] Test Prepared (PokerHand\PokerHandTest::testPokerHandRanking#Two Pair)
+[00:00:00.019214083 / 00:00:00.000033417] [8388608 bytes] Assertion Succeeded (Constraint: is equal to 'Two Pair', Value: 'Two Pair')
+[00:00:00.019243791 / 00:00:00.000029708] [8388608 bytes] Test Passed (PokerHand\PokerHandTest::testPokerHandRanking#Two Pair)
+[00:00:00.019306416 / 00:00:00.000062625] [8388608 bytes] Test Finished (PokerHand\PokerHandTest::testPokerHandRanking#Two Pair)
+[00:00:00.019344333 / 00:00:00.000037917] [8388608 bytes] Test Preparation Started (PokerHand\PokerHandTest::testPokerHandRanking#One Pair)
+[00:00:00.019383791 / 00:00:00.000039458] [8388608 bytes] Test Prepared (PokerHand\PokerHandTest::testPokerHandRanking#One Pair)
+[00:00:00.019417833 / 00:00:00.000034042] [8388608 bytes] Assertion Succeeded (Constraint: is equal to 'One Pair', Value: 'One Pair')
+[00:00:00.019444750 / 00:00:00.000026917] [8388608 bytes] Test Passed (PokerHand\PokerHandTest::testPokerHandRanking#One Pair)
+[00:00:00.019504416 / 00:00:00.000059666] [8388608 bytes] Test Finished (PokerHand\PokerHandTest::testPokerHandRanking#One Pair)
+[00:00:00.019542833 / 00:00:00.000038417] [8388608 bytes] Test Preparation Started (PokerHand\PokerHandTest::testPokerHandRanking#High Card)
+[00:00:00.019591791 / 00:00:00.000048958] [8388608 bytes] Test Prepared (PokerHand\PokerHandTest::testPokerHandRanking#High Card)
+[00:00:00.019645625 / 00:00:00.000053834] [8388608 bytes] Assertion Succeeded (Constraint: is equal to 'High Card', Value: 'High Card')
+[00:00:00.019680791 / 00:00:00.000035166] [8388608 bytes] Test Passed (PokerHand\PokerHandTest::testPokerHandRanking#High Card)
+[00:00:00.019758708 / 00:00:00.000077917] [8388608 bytes] Test Finished (PokerHand\PokerHandTest::testPokerHandRanking#High Card)
+[00:00:00.019802166 / 00:00:00.000043458] [8388608 bytes] Test Suite Finished (PokerHand\PokerHandTest::testPokerHandRanking, 10 tests)
+[00:00:00.020054000 / 00:00:00.000251834] [8388608 bytes] Test Preparation Started (PokerHand\PokerHandTest::testThrowsExceptionForInvalidInput)
+[00:00:00.020106875 / 00:00:00.000052875] [8388608 bytes] Test Prepared (PokerHand\PokerHandTest::testThrowsExceptionForInvalidInput)
+[00:00:00.020291291 / 00:00:00.000184416] [8388608 bytes] Assertion Succeeded (Constraint: exception of type "InvalidArgumentException", Value: InvalidArgumentException Object #294 (
+                                                              'message' => 'Hand must contain exactly 5 cards',
+                                                              'string' => '',
+                                                              'code' => 0,
+                                                              'file' => '/Users/edward/Desktop/jj/fh-take-home/challenge-php/src/PokerHand/PokerHand.php',
+                                                              'line' => 36,
+                                                              'previous' => null,
+                                                          ))
+[00:00:00.020390250 / 00:00:00.000098959] [8388608 bytes] Test Passed (PokerHand\PokerHandTest::testThrowsExceptionForInvalidInput)
+[00:00:00.020473500 / 00:00:00.000083250] [8388608 bytes] Test Finished (PokerHand\PokerHandTest::testThrowsExceptionForInvalidInput)
+[00:00:00.020520791 / 00:00:00.000047291] [8388608 bytes] Test Preparation Started (PokerHand\PokerHandTest::testAceLowStraight)
+[00:00:00.020570041 / 00:00:00.000049250] [8388608 bytes] Test Prepared (PokerHand\PokerHandTest::testAceLowStraight)
+[00:00:00.020615375 / 00:00:00.000045334] [8388608 bytes] Assertion Succeeded (Constraint: is equal to 'Straight', Value: 'Straight')
+[00:00:00.020645958 / 00:00:00.000030583] [8388608 bytes] Test Passed (PokerHand\PokerHandTest::testAceLowStraight)
+[00:00:00.020707458 / 00:00:00.000061500] [8388608 bytes] Test Finished (PokerHand\PokerHandTest::testAceLowStraight)
+[00:00:00.020749250 / 00:00:00.000041792] [8388608 bytes] Test Preparation Started (PokerHand\PokerHandTest::testStraightWithAceHigh)
+[00:00:00.020795416 / 00:00:00.000046166] [8388608 bytes] Test Prepared (PokerHand\PokerHandTest::testStraightWithAceHigh)
+[00:00:00.020834333 / 00:00:00.000038917] [8388608 bytes] Assertion Succeeded (Constraint: is equal to 'Straight', Value: 'Straight')
+[00:00:00.020862416 / 00:00:00.000028083] [8388608 bytes] Test Passed (PokerHand\PokerHandTest::testStraightWithAceHigh)
+[00:00:00.020921916 / 00:00:00.000059500] [8388608 bytes] Test Finished (PokerHand\PokerHandTest::testStraightWithAceHigh)
+[00:00:00.020963791 / 00:00:00.000041875] [8388608 bytes] Test Preparation Started (PokerHand\PokerHandTest::testThrowsExceptionForInvalidCardFormat)
+[00:00:00.021005541 / 00:00:00.000041750] [8388608 bytes] Test Prepared (PokerHand\PokerHandTest::testThrowsExceptionForInvalidCardFormat)
+[00:00:00.021042791 / 00:00:00.000037250] [8388608 bytes] Assertion Succeeded (Constraint: exception of type "InvalidArgumentException", Value: InvalidArgumentException Object #286 (
+                                                              'message' => 'Invalid card format: X1',
+                                                              'string' => '',
+                                                              'code' => 0,
+                                                              'file' => '/Users/edward/Desktop/jj/fh-take-home/challenge-php/src/PokerHand/PokerHand.php',
+                                                              'line' => 43,
+                                                              'previous' => null,
+                                                          ))
+[00:00:00.021084208 / 00:00:00.000041417] [8388608 bytes] Test Passed (PokerHand\PokerHandTest::testThrowsExceptionForInvalidCardFormat)
+[00:00:00.021148708 / 00:00:00.000064500] [8388608 bytes] Test Finished (PokerHand\PokerHandTest::testThrowsExceptionForInvalidCardFormat)
+[00:00:00.021206500 / 00:00:00.000057792] [8388608 bytes] Test Preparation Started (PokerHand\PokerHandTest::testThrowsExceptionForDuplicateCards)
+[00:00:00.021280958 / 00:00:00.000074458] [8388608 bytes] Test Prepared (PokerHand\PokerHandTest::testThrowsExceptionForDuplicateCards)
+[00:00:00.021327416 / 00:00:00.000046458] [8388608 bytes] Assertion Succeeded (Constraint: exception of type "InvalidArgumentException", Value: InvalidArgumentException Object #280 (
+                                                              'message' => 'Duplicate cards are not allowed',
+                                                              'string' => '',
+                                                              'code' => 0,
+                                                              'file' => '/Users/edward/Desktop/jj/fh-take-home/challenge-php/src/PokerHand/PokerHand.php',
+                                                              'line' => 65,
+                                                              'previous' => null,
+                                                          ))
+[00:00:00.021370541 / 00:00:00.000043125] [8388608 bytes] Test Passed (PokerHand\PokerHandTest::testThrowsExceptionForDuplicateCards)
+[00:00:00.021433041 / 00:00:00.000062500] [8388608 bytes] Test Finished (PokerHand\PokerHandTest::testThrowsExceptionForDuplicateCards)
+[00:00:00.021472583 / 00:00:00.000039542] [8388608 bytes] Test Preparation Started (PokerHand\PokerHandTest::testThrowsExceptionForInvalidSuit)
+[00:00:00.021514083 / 00:00:00.000041500] [8388608 bytes] Test Prepared (PokerHand\PokerHandTest::testThrowsExceptionForInvalidSuit)
+[00:00:00.021544916 / 00:00:00.000030833] [8388608 bytes] Assertion Succeeded (Constraint: exception of type "InvalidArgumentException", Value: InvalidArgumentException Object #286 (
+                                                              'message' => 'Invalid card format: Ax',
+                                                              'string' => '',
+                                                              'code' => 0,
+                                                              'file' => '/Users/edward/Desktop/jj/fh-take-home/challenge-php/src/PokerHand/PokerHand.php',
+                                                              'line' => 43,
+                                                              'previous' => null,
+                                                          ))
+[00:00:00.021583416 / 00:00:00.000038500] [8388608 bytes] Test Passed (PokerHand\PokerHandTest::testThrowsExceptionForInvalidSuit)
+[00:00:00.021639791 / 00:00:00.000056375] [8388608 bytes] Test Finished (PokerHand\PokerHandTest::testThrowsExceptionForInvalidSuit)
+[00:00:00.021680375 / 00:00:00.000040584] [8388608 bytes] Test Suite Finished (PokerHand\PokerHandTest, 16 tests)
+[00:00:00.021923625 / 00:00:00.000243250] [8388608 bytes] Test Runner Execution Finished
+[00:00:00.021954166 / 00:00:00.000030541] [8388608 bytes] Test Runner Finished
+[00:00:00.022399958 / 00:00:00.000445792] [8388608 bytes] PHPUnit Finished (Shell Exit Code: 0)
